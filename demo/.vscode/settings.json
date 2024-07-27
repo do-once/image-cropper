@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.documentSelectors": [
+      "**/*.wxml",
+      "**/*.wxss",
+      "**/*.wxs"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
