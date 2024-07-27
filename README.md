@@ -4,7 +4,8 @@
 
 **支持非全屏裁剪，传入container_height、container_offset_top、container_width、container_offset_left参数即可**
 
-> 源码在`demo/component`目录
+- 源码在`demo/component`目录
+- [点击导入代码片段](https://developers.weixin.qq.com/s/a3j9Z0m67UTJ)
 
 - ![图片](./.github/image.png)
 
@@ -61,7 +62,7 @@
             this.cropper = this.selectComponent("#image-cropper");
             //开始裁剪
             this.setData({
-                src:"https://raw.githubusercontent.com/1977474741/image-cropper/dev/image/code.jpg",
+                src:"https://github.com/do-once/image-cropper/blob/main/.github/image.png",
             });
             wx.showLoading({
                 title: '加载中'
@@ -133,12 +134,5 @@
 | setTransform  |{x,y,angle,scale,cutX,cutY}|   无    |图片在原有基础上的变化(scale受min_scale、max_scale影响)|根据需要传参|
 | imgReset      |无	          |   无    |重置图片的角度、缩放、位置(可以在onloadImage回调里使用)|否|
 
-Demo地址：https://github.com/wx-plugin/image-cropper-demo
-
-[点击导入代码片段](https://developers.weixin.qq.com/s/Z1VsB9mG7Cpm)
 
 如果有什么好的建议欢迎提issues或者提pr
-
-## 进群 | 鼓励作者
-
-<img width="300" height="300" src="https://pubser-res.zhenai.com/other/temp/202103/19/19084532315057.png"/>   <img width="300" height="300" src="https://pubser-res.zhenai.com/other/temp/202006/27/15321042129368.jpg"/>
