@@ -1,4 +1,4 @@
-# wx-image-cropper
+# @doonce/image-cropper
 
 > 改造自[image-cropper](https://github.com/1977474741/image-cropper)
 
