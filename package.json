@@ -1,0 +1,13 @@
+{
+  "name": "@doonce/wx-image-cropper",
+  "version": "0.0.1",
+  "description": "微信小程序图片裁切组件",
+  "files": ["demo/component"],
+  "miniprogram": "demo/component",
+  "author": {
+    "name": "GuangHui",
+    "email": "bryanadamss@foxmail.com",
+    "url": "https://github.com/BryanAdamss"
+  },
+  "license": "MIT"
+}
