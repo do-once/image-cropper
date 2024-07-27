@@ -50,6 +50,8 @@
 </do-image-cropper>
 ```
 #### 3.简单示例
+- 详细参考`demo`目录
+- 或[点击导入代码片段](https://developers.weixin.qq.com/s/a3j9Z0m67UTJ)
 ```javascript
     Page({
         data: {
