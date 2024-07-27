@@ -8,8 +8,8 @@ const containerHeight = 600
 Page({
   data: {
     src: '',
-    width: 100, //宽度
-    height: 100, //高度
+    width: 100, // 裁切框宽度
+    height: 100, // 裁切框高度
     max_width: 375,
     max_height: 600,
     container_width: containerWidth, // 容器宽度

@@ -5,6 +5,6 @@
     "navigationBarTextStyle": "white",
     "backgroundColor": "#292929",
     "usingComponents": {
-        "image-cropper": "../component/image-cropper/image-cropper"
+        "do-image-cropper": "../component/image-cropper/image-cropper"
     }
 }

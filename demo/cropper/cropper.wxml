@@ -3,7 +3,7 @@
 >
 
 <view style="width: 100%; height: 600px">
-  <image-cropper
+  <do-image-cropper
     id="image-cropper"
     bindload="cropperload"
     bindimageload="loadimage"
@@ -24,7 +24,7 @@
     container_offset_top="{{container_offset_top}}"
     container_offset_left="{{container_offset_left}}"
   >
-  </image-cropper>
+  </do-image-cropper>
 </view>
 
 <view class="bottom" style="height: 132px; background-color: blue">
