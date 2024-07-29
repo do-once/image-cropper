@@ -6,6 +6,7 @@
 
 - 源码在`demo/component`目录
 - [点击导入代码片段](https://developers.weixin.qq.com/s/a3j9Z0m67UTJ)
+	- `demo`基于`iphone12/13 mini (375x812)`编写，其它模拟尺寸，需适配`container_height、container_offset_top、container_width、container_offset_left`参数
 
 - ![图片](./.github/image.png)
 
