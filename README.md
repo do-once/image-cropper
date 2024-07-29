@@ -96,7 +96,7 @@
 | container_width 	| Number | wx.getSystemInfo().windowWidth	   |无限制|非全屏裁切时容器宽度|否|
 | container_height 	| Number | wx.getSystemInfo().windowHeight	   |无限制|非全屏裁切时容器宽度|否|
 | container_offset_left 	| Number | 0	   |无限制|非全屏裁切时容器距离视口左侧的距离|否|
-| container_offset_top 	| Number | 0	   |无限制|  非全屏裁切时容器距离视口顶部的距离；自定义导航栏时，此值是到屏幕顶部的距离；原生导航栏时，此值是到原生导航栏的距离;|否|
+| container_offset_top 	| Number | 0	   |无限制|  非全屏裁切时容器距离视口顶部的距离；**自定义导航栏时，视口顶部在屏幕顶部；原生导航栏时，视口顶部在原生导航栏底部;**|否|
 | imgSrc      	| String | 无	   |无限制|图片地址(如果是网络图片需配置安全域名)|否|
 | disable_rotate| Boolean| false    |true/false|禁止用户旋转(为false时建议同时设置limit_move为false)|否|
 | limit_move	| Boolean| false    |true/false|限制图片移动范围(裁剪框始终在图片内)(为true时建议同时设置disable_rotate为true)|否|
