@@ -1,4 +1,8 @@
-<view class="image-cropper" catchtouchmove="_preventTouchMove">
+<view
+  class="image-cropper"
+  catchtouchmove="_preventTouchMove"
+  style="width:{{container_width}}px;height:{{container_height}}px;"
+>
   <view
     class="main"
     bindtouchend="_cutTouchEnd"
